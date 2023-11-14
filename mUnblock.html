@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mUnblock</title>
+  <style> 
+      h1{ text-align: center;;
+          font-size: 55px;;
+      }
+       h4{ text-align: center;;
+           font-size: 22px;;
+      }
+      body{
+         background-color: orange;; 
+          text-align: center;;
+      }
+      label{
+      color: blue;;
+          background-color: white;;
+      }
+ 
+      
+    </style>
+    </head>
+    <body>
+        
+      <h1>Welcome to mUnblock.</h1>  
+          <h4>Enter Url</h4>  
+      <form>
+            <label type="websiteurl">URL</label>
+          <input for="text" id="websiteurl">
+          <button onclick="url" width="50" height = "20">Submit</button>
+          
+        </form>
+        <iframe id="url" src="url" width = "800" height="450" ></iframe>
+    </body>
+    
+</html>
+<script>
+
+document.getElementById("url").innerHTML = "https://bing.com";
+    
+</script>
